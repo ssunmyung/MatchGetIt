@@ -63,7 +63,7 @@ public class FindController {
 
             // 발신자 이메일 계정 정보
             String senderEmail = "rlatjsaud65@naver.com";
-            String senderPassword = "sn08117753!";
+            String senderPassword = "********";
 
             session = Session.getInstance(properties, new Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {
